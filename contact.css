@@ -1,0 +1,105 @@
+html{
+	background-color: aliceblue;
+}
+
+header{
+	font-size: 80px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+main{
+	margin: 80px auto;
+	max-width: 80%;
+}
+
+/* Site Navigation */
+
+.toggle-btn{
+	display: None;
+}
+
+#menu{
+	height: 30px;
+	display: flex;
+	background: rgb(0,0,0);
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.toggle-btn{
+		display: block;
+	}
+
+	#menu{
+		display: none;
+	}
+
+}
+
+li{
+	list-style: None;
+	margin: 0 15px;
+}
+
+a{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: None;
+	height: 60px;
+	
+}
+
+a:hover{
+	background-color: green;
+}
+
+a:active{
+	background-color: red;
+	transition: 1s
+}
+
+/*Form Control*/
+#title, #description{
+    text-align: center;
+}
+
+label, legend{
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+  
+.form-control {
+    display: block;
+    width: 90%;
+    height: 1.5rem;
+    padding: 10px;
+    color: #495057;
+    background-color: #fff;
+    margin-left: 2rem;
+    /* background-clip: padding-box; */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+select{
+    width: 90%;
+    min-height: 1.5rem;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.input-radio, .input-checkbox{
+    display: inline-block;
+}
+
+.text-box{
+    min-height: 100px;
+    width: 90%;
+    margin-left: 2rem;
+}

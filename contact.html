@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Eateries at IIT KGP</title>
+        <link rel="stylesheet" href="./contact.css">
+    </head>
+    <body>
+        <header>EATERIES AT IIT KGP</header>
+
+        <button class="toggle-btn" onclick="toggleHamburger()">☰</button>
+        <nav class="site-nav">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="present">About</a></li>
+                <li><a href="order.html">Order Now</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <form id="survey-form">
+            <p>
+                <label for="name" id="name-label">Name:</label>
+                <input id="name" type="text" placeholder="Name" name="Name"  class="form-control" required>
+            </p>
+            <p>
+                <label for="email" id="email-label">Email:</label>
+                <input id="email" type="email" placeholder="Email" name="Email" class="form-control" required>
+            </p>
+            <p>
+                <label for="number" id="number-label">Age:</label>
+                <input id="number" type="number" placeholder="Age" name="Age" min="16" max="100" class="form-control" required>
+            </p>
+            <p>
+                <legend>Gender</legend>  
+                <label for="gender" class="input-radio">Male</label>
+                <input id="gender" type="radio" name="gender" value="M">
+                <label for="gender" class="input-radio">Female</label>
+                <input id="gender" type="radio" name="gender" value="F"> 
+            </p>
+            <p>
+                <label for="text">Enter your agenda:</label>
+                <textarea id="pastExperience" name="pastExperience" class="text-box"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit" id="submit">
+            </p>
+        </form>
+        <script src="./hamburger.js"></script>
+    </body>
+</html>

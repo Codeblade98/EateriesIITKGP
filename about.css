@@ -1,0 +1,78 @@
+html{
+	background-color: aliceblue;
+}
+
+header{
+	font-size: 80px;
+	margin: 0 auto;
+    font-weight: bold;
+}
+
+main{
+	margin: 80px auto;
+	max-width: 80%;
+}
+
+/* Site Navigation */
+
+.toggle-btn{
+	display: None;
+}
+
+#menu{
+	height: 30px;
+	display: flex;
+	background: rgb(0,0,0);
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.toggle-btn{
+		display: block;
+	}
+
+	#menu{
+		display: none;
+	}
+
+}
+
+
+li{
+	list-style: None;
+	margin: 0 15px;
+}
+
+a{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: None;
+	height: 30px;
+	
+}
+
+a:hover{
+	background-color: green;
+}
+
+a:active{
+	background-color: red;
+	transition: 1s
+}
+
+.present{
+	background-color: white;
+	color: black;
+}
+
+/*End of site navigation*/
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.text-link{
+    color: blue;
+}

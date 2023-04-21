@@ -1,0 +1,42 @@
+html{
+    background-color: burlywood
+}
+
+header{
+    font-size: 80px;
+    background-color: brown;
+    color: burlywood;
+}
+table{
+    width: 90%;
+    margin: 80px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+table th,
+table td{
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    padding: 5px;
+    height: 30px;
+    font-size: 25px;
+}
+
+table th{
+    border-top: 2px solid blue;
+}
+
+.first{
+    border-top: 2px solid blue;
+}
+
+.last{
+    border-bottom: 2px solid blue;
+}

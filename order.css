@@ -1,0 +1,117 @@
+html{
+	background-color: aliceblue;
+}
+
+header{
+	font-size: 80px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+main{
+	margin: 80px auto;
+	max-width: 80%;
+}
+
+/* Site Navigation */
+
+.toggle-btn{
+	display: None;
+}
+
+#menu{
+	height: 30px;
+	display: flex;
+	background: rgb(0,0,0);
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.toggle-btn{
+		display: block;
+	}
+
+	#menu{
+		display: none;
+	}
+
+}
+
+li{
+	list-style: None;
+	margin: 0 15px;
+}
+
+a{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: None;
+	height: 30px;
+	
+}
+
+a:hover{
+	background-color: green;
+}
+
+a:active{
+	background-color: red;
+	transition: 1s
+}
+
+.present{
+	background-color: white;
+	color: black;
+}
+
+/*End of site navigation*/
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.text-link{
+    color: blue;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: #4CAF50;
+    font-size: 20px;
+}
+
+table tr{
+    height: 60px;
+    font-size: 20px;
+}
+
+table th,
+table td{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.name-col{
+	width: 18%;
+}
+
+.rating-col{
+    width: 10%;
+}
+
+td .text-link{
+    color: black;
+}
+
+td .text-link:hover{
+    font-weight: bold;
+    background-color: white;
+}

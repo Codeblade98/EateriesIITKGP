@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Eateries at IIT KGP</title>
+        <link rel="stylesheet" href="./baskinrobbins.css">
+    </head>
+    <body>
+        <header>BASKIN ROBBINS</header>
+        <div class="bill">
+            Total bill is:<b id="sum"></b>
+        </div>
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Cost</th>
+                <th>Add</th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr class="first">
+                    <td>Rocher Ice Cream</td>
+                    <td>Rs. 250</td>
+                    <td><button class="add" onclick="onClickAdd(250)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(250)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Chocolate Ice Cream</td>
+                    <td>Rs. 205</td>
+                    <td><button class="add" onclick="onClickAdd(205)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(205)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Nuts Overloaded Ice Cream</td>
+                    <td>Rs. 190</td>
+                    <td><button class="add" onclick="onClickAdd(190)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(190)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Ferrero Rocher Ice Cream</td>
+                    <td>Rs. 195</td>
+                    <td><button class="add" onclick="onClickAdd(195)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(195)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Chocolava</td>
+                    <td>Rs. 205</td>
+                    <td><button class="add" onclick="onClickAdd(205)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(205)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Fruit Exotica</td>
+                    <td>Rs. 99</td>
+                    <td><button class="add" onclick="onClickAdd(99)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(99)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Oreo Shot</td>
+                    <td>Rs. 190</td>
+                    <td><button class="add" onclick="onClickAdd(190)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(190)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Rich Dark Chocolate Tub</td>
+                    <td>Rs. 99</td>
+                    <td><button class="add" onclick="onClickAdd(99)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(99)">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Choco Chunks Tub</td>
+                    <td>Rs. 230</td>
+                    <td><button class="add" onclick="onClickAdd(230)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(230)">Remove</button></td>
+                </tr>
+                <tr class="last">
+                    <td>Fossil Fuel Ice Cream</td>
+                    <td>Rs. 95</td>
+                    <td><button class="add" onclick="onClickAdd(95)">Add</button></td>
+                    <td><button class="remove" onclick="onClickRemove(95)">Remove</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="./scripts.js"></script>
+    </body>
+</html>
